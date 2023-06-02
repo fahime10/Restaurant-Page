@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+button {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    background-color: #e0b47d;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(5, 5, 255);
+    transition: 1.5s;
+}
+
+.title {
+    background-color: #e89126;
+    color: white;
+    margin: auto auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.main-image {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 500px;
+    bottom: 500px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.coffee-background {
+    height: 500px;
+    width: 1263px;
+    object-fit: contain;
+    margin: auto auto;
+    background-color: blanchedalmond;
+}
