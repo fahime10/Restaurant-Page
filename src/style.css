@@ -20,6 +20,12 @@ button:hover {
     transition: 1.5s;
 }
 
+#content {
+    background-image: url('coffee-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 900px;
+}
+
 .title {
     background-color: #e89126;
     color: white;
@@ -28,20 +34,48 @@ button:hover {
     text-align: center;
 }
 
-.main-image {
-    height: 300px;
-    width: 300px;
-    position: relative;
-    left: 500px;
-    bottom: 500px;
+.coffee-background {
+    height: 500px;
+    width: 99vw;
+}
+
+.description {
+    text-align: center;
+    font-size: 20px;
+    background-color: bisque;
+    width: 500px;
+    margin: 1rem auto auto;
+    padding: 2rem;
     border-radius: 10px;
     opacity: 0.8;
 }
 
-.coffee-background {
-    height: 500px;
-    width: 1263px;
-    object-fit: contain;
-    margin: auto auto;
-    background-color: blanchedalmond;
+.hours {
+    text-align: center;
+    font-size: 20px;
+    background-color: bisque;
+    width: 500px;
+    margin: 1rem auto auto;
+    padding: 2rem;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.location {
+    text-align: center;
+    font-size: 20px;
+    background-color: bisque;
+    width: 500px;
+    margin: 1rem auto auto;
+    padding: 2rem;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.footer {
+    text-align: center;
+    background-color: #e89126;
+    color: white;
+    padding: 1rem;
+    position: relative;
 }
