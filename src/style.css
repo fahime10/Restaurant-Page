@@ -15,11 +15,6 @@ button {
     color: white;
 }
 
-button:hover {
-    background-color: rgb(5, 5, 255);
-    transition: 1.5s;
-}
-
 #content {
     background-image: url('coffee-background.jpg');
     background-repeat: no-repeat;
