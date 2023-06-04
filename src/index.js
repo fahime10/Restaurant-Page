@@ -15,6 +15,8 @@ const headerNavMenu = () => {
     menu.innerHTML = "Menu";
     contact.innerHTML = "Contact";
 
+    home.style.backgroundColor = "blue";
+
     header.appendChild(home);
     header.appendChild(menu);
     header.appendChild(contact);
