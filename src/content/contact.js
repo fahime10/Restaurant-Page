@@ -21,14 +21,14 @@ export function contactContent() {
     "James Smith <br>" +
     "0116 1234567 <br>" +
     "TemplateEmail@gmail.com";
-    tile1.classList.add('tile2');
+    tile2.classList.add('tile2');
 
     tile3.innerHTML = 
     "<b>Cashier</b> <br> " +
     "James Bond <br>" +
     "0116 1234567 <br>" +
     "TemplateEmail@gmail.com";
-    tile1.classList.add('tile3');
+    tile3.classList.add('tile3');
 
     content.appendChild(title);
     content.appendChild(tile1);
